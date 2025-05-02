@@ -1,0 +1,48 @@
+---
+name: InvSee
+authors: [BlockHorizons,TheWindows]
+main: BlockHorizons\InvSee\Loader
+api:
+- 5.10.0
+version: 2.4.1
+commands:
+  invsee:
+    description: View a player's inventory
+    usage: /invsee <player>
+    permission: invsee.command.invsee
+  enderinvsee:
+    description: View a player's ender inventory
+    usage: /enderinvsee <player>
+    permission: invsee.command.enderinvsee
+  invseemodule:
+    description: Manage plugin modules
+    usage: /invseemod <player>
+    permission: invsee.command.invseemodule
+    aliases:
+    - invseemod
+permissions:
+  invsee.command.invsee:
+    default: true
+  invsee.command.enderinvsee:
+    default: true
+  invsee.command.invseemodule:
+    default: op
+  invsee.inventory.view:
+    default: op
+    description: Allows viewing a player's inventory.
+  invsee.inventory.modify:
+    default: op
+    description: Allows modifying a player's inventory.
+  invsee.inventory.modify.self:
+    default: true
+    description: Allows modifying your own inventory.
+  invsee.enderinventory.view:
+    default: op
+    description: Allows viewing a player's ender inventory.
+  invsee.enderinventory.modify:
+    default: op
+    description: Allows modifying a player's ender inventory.
+  invsee.enderinventory.modify.self:
+    default: true
+    description: Allows modifying your own ender inventory.
+...
