@@ -27,4 +27,4 @@
 
 # 🔑 | Dependencies
 
-InvMenu(https://github.com/NetherGamesMC/InvMenu)
+[InvMenu](https://github.com/NetherGamesMC/InvMenu)
