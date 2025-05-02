@@ -3,7 +3,7 @@
 > make sure the player have permission or have operator role in game!
 
 - This Plugin Allow You See Players Inventory In A Gui.
-- You Can Move PLayers Items Or Grab The Players Items This An Awesome Plugin For Admins
+- You Can Move PLayers Items Or Grab The Players Items This An Awesome Plugin For Admins.
 
 # ✨ | Commands 
 
